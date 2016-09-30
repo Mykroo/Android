@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pokomons">
+        ​<item>Roidrat​</item>
+        ​<item>Beetlebot​</item>
+        ​<item>Gunrilla​</item>
+        ​<item>Pterdaken​</item>
+        ​<item>Fetuswami​</item>
+        ​<item>Shoe​</item>
+        <item>Chinpokomon</item>
+        <item>Donkeytron</item>
+        <item>Furrycat</item>
+        <item>Stegmata</item>
+        <item>Pengin</item>
+        <item>Monkay</item>
+        <item>Chu-chu Nezumi</item>
+        <item>Vamporko</item>
+        <item>Gophermon</item>
+        <item>Cosmonewt</item>
+        <item>RabbiTech</item>
+        <item>Sna-kat</item>
+        <item>Accountafish</item>
+        <item>Gerbitoad</item>
+        <item>Biebersaurus</item>
+        <item>Fatdactyl</item>
+        <item>Terribovine</item>
+        <item>Ferasnarf</item>
+        <item>Roo-stor</item>
+        <item>Velocirapstar</item>
+        <item>Brocorri</item>
+        <item>Lambtron</item>
+        <item>Flowerpotamus</item>
+        <item>Mouse-Tik</item>
+    </string-array>
+</resources>
