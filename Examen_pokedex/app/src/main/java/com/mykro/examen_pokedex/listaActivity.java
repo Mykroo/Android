@@ -57,13 +57,28 @@ public class listaActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id){
                 //Mostramos una notificación Toast
                 //con la opcion seleccionada
-                Toast.makeText(context,"Chinpoko: "+chinpokos[position], Toast.LENGTH_SHORT).show();
-                Intent intent=new Intent().setClass(listaActivity.this, descChinpoko.class);;
-                intent.putExtra("chinpoko",chinpokos[position]);
-                intent.putExtra("pos",position);
-                startActivity(intent);
+                String str=(String)parent.getItemAtPosition(position);
+                position=findPos(str);
+                if (position!=404) {
+                    //Toast.makeText(context, "Chinpoko: " + position + str, Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent().setClass(listaActivity.this, descChinpoko.class);
+                    intent.putExtra("chinpoko", chinpokos[position]);
+
+                    intent.putExtra("pos", position);
+                    startActivity(intent);
+                }else
+                    Toast.makeText(context, "Chinpoko no encontrado " + position , Toast.LENGTH_SHORT).show();
+
             }
         });
     }
+    public  int findPos(String str){
+        for (int i = 0; i < chinpokos.length; i++){
+            if (chinpokos[i].equals(str))
+                return i;
+        }
+        return 404;
+    }
+
 
 }
