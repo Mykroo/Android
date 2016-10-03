@@ -7,44 +7,297 @@
     <string name="splash">Cargando...</string>
     <string name="btnLis">Lista</string>
     <string name="btnGal">Galeria</string>
-
     <string name="title_activity_desc_chinpoko">Descripcion de chinpokomon</string>
 
-    <string-array name="pokomons">
-        ​<item>Roidrat​</item>
-        ​<item>Beetlebot​</item>
-        ​<item>Konefin</item>
-        ​<item>Gunrilla​</item>
-        ​<item>Pterdaken​</item>
-        ​<item>Fetuswami​</item>
-        ​<item>Shoe​</item>
-        <item>Chinpokomon</item>
-        <item>Donkeytron</item>
-        <item>Furrycat</item>
-        <item>Stegmata</item>
-        <item>Pengin</item>
-        <item>Monkay</item>
-        <item>Chu-chu Nezumi</item>
-        <item>Vamporko</item>
-        <item>Gophermon</item>
-        <item>Cosmonewt</item>
-        <item>RabbiTech</item>
-        <item>Sna-kat</item>
-        <item>Accountafish</item>
-        <item>Gerbitoad</item>
-        <item>Biebersaurus</item>
-        <item>Fatdactyl</item>
-        <item>Terribovine</item>
-        <item>Ferasnarf</item>
-        <item>Roo-stor</item>
-        <item>Velocirapstar</item>
-        <item>Brocorri</item>
-        <item>Lambtron</item>
-        <item>Flowerpotamus</item>
-        <item>Mouse-Tik</item>
+    <string-array name="chinpokomon_0">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_1">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_2">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_3">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_4">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_5">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_6">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_7">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_8">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_9">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_10">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_11">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_12">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_13">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_14">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_15">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_16">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_17">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array><string-array name="chinpokomon_18">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_19">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_20">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
     </string-array>
 
-    <string-array name="Roidrat​">
+    ​<string-array name="chinpokomon_21">
+    <item></item>
+    <item>Insecto</item>
+    <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+    <item>30.48 cm</item>
+    <item>6.4 lbs 2.9 kg</item>
+    <item>Fuego, Volador, Piedra</item>
+</string-array>
+    <string-array name="chinpokomon_22">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_23">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_24">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_25">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_26">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_27">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_28">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_29">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_30">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
+    <string-array name="chinpokomon_31">
+        <item></item>
+        <item>Insecto</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
+    </string-array>
 
+    <string-array name="pokomons">
+        ​<item>Accountafish</item>
+        <item>Beetlebot</item>
+        <item>Biebersaurus</item>
+        <item>Brocorri</item>
+        <item>Chu-chu Nezumi</item>
+        <item>Cosmonewt</item>
+        <item>Donkeytron</item>
+        <item>Fatdactyl</item>
+        <item>Feligor</item>
+        <item>Ferasnarf</item>
+        ​<item>Fetuswami​</item>
+        <item>Flowerpotamus</item>
+        <item>Furrycat</item>
+        <item>Gerbitoad</item>
+        <item>Gophermon</item>
+        ​<item>Gunrilla​</item>
+        ​<item>Herbil​</item>
+        ​<item>Konefin</item>
+        <item>Lambtron</item>
+        <item>Monkay</item>
+        <item>Pengin</item>
+        <item>Poodlesaurus</item>
+        ​<item>Pterdaken​</item>
+        <item>RabbiTech</item>
+        <item>Roidrat​</item>
+        <item>Roo-stor</item>
+        ​<item>Shoe​</item>
+        <item>Sna-kat</item>
+        <item>Stegmata</item>
+        <item>Terribovine</item>
+        <item>Vamporko</item>
+        <item>Velocirapstar</item>
     </string-array>
 </resources>

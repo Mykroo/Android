@@ -1,47 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/chinpoko2"
-    tools:context="com.mykro.examen_pokedex.descChinpoko">
+    android:orientation="vertical"
+    android:background="@drawable/card">
+
+    <TextView
+        android:id="@+id/nombre"
+        android:text="Holitll"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:textSize="25dp" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:src="@drawable/ic_unlock_cpm_beetlebot"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/colorLightGrey"/>
-
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:id="@+id/imgn" />
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/tipo"
+        android:text="Holitll"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="39dp" />
-
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingLeft="15dp"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/descripcion"
+        android:text="Holitll"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
-
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:textSize="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/altura"
+        android:text="Holitll"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
-        android:id="@+id/desc_txt"
-        android:layout_below="@+id/textView3"
-        android:layout_centerHorizontal="true" />
-</RelativeLayout>
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:textSize="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/peso"
+        android:text="Holitll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:textSize="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/debilidades"
+        android:text="Holitll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:textSize="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+</LinearLayout>
