@@ -37,6 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
                 //setContentView(R.layout.list_chinpokos);
             }
-        }, 500);
+        }, 2000);
     }
 }

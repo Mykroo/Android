@@ -5,6 +5,9 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorNormal">#2196f3</color>
     <color name="colorSuccess">#ef3ee905</color>
+    <color name="colorRed">#ef5350</color>
+    <color name="colorLightGrey">#b77e7e7e</color>
+
 
     <color name="black_overlay">#66000000</color>
 </resources>

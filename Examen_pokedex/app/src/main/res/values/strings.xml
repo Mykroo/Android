@@ -1,7 +1,50 @@
 <resources>
     <string name="app_name">Examen_pokedex</string>
-
+    <string name="srch">Nombre de chinpokomon</string>
     <string name="title_activity_menu">menu</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="splash">Cargando...</string>
+    <string name="btnLis">Lista</string>
+    <string name="btnGal">Galeria</string>
+
+    <string name="title_activity_desc_chinpoko">Descripcion de chinpokomon</string>
+
+    <string-array name="pokomons">
+        ​<item>Roidrat​</item>
+        ​<item>Beetlebot​</item>
+        ​<item>Konefin</item>
+        ​<item>Gunrilla​</item>
+        ​<item>Pterdaken​</item>
+        ​<item>Fetuswami​</item>
+        ​<item>Shoe​</item>
+        <item>Chinpokomon</item>
+        <item>Donkeytron</item>
+        <item>Furrycat</item>
+        <item>Stegmata</item>
+        <item>Pengin</item>
+        <item>Monkay</item>
+        <item>Chu-chu Nezumi</item>
+        <item>Vamporko</item>
+        <item>Gophermon</item>
+        <item>Cosmonewt</item>
+        <item>RabbiTech</item>
+        <item>Sna-kat</item>
+        <item>Accountafish</item>
+        <item>Gerbitoad</item>
+        <item>Biebersaurus</item>
+        <item>Fatdactyl</item>
+        <item>Terribovine</item>
+        <item>Ferasnarf</item>
+        <item>Roo-stor</item>
+        <item>Velocirapstar</item>
+        <item>Brocorri</item>
+        <item>Lambtron</item>
+        <item>Flowerpotamus</item>
+        <item>Mouse-Tik</item>
+    </string-array>
+
+    <string-array name="Roidrat​">
+
+    </string-array>
 </resources>

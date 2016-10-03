@@ -25,7 +25,7 @@ public class menuActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Toast.makeText(menuActivity.this,"Lista lanzada ", Toast.LENGTH_SHORT).show();
-                Intent intent=new  Intent().setClass(menuActivity.this, lista.class);
+                Intent intent=new  Intent().setClass(menuActivity.this, listaActivity.class);
                 startActivity(intent);
 
             }

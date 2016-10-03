@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="pokomons">
-        <item></item>
+    <string-array name="files">
+        <item>ic_unlock_cpm_accountafish</item>
+        <item>ic_unlock_cpm_beetlebot</item>
+        <item>ic_unlock_cpm_biebersaurus</item>
+        <item>ic_unlock_cpm_brocorri</item>
+        <item>ic_unlock_cpm_ccnesme</item>
+        <item>ic_unlock_cpm_cosmonewt</item>
+        <item>ic_unlock_cpm_derpal</item>
+        <item>ic_unlock_cpm_donkeytron</item>
+        <item>ic_unlock_cpm_fatdactyl</item>
+        <item>ic_unlock_cpm_feligor</item>
+        <item>ic_unlock_cpm_ferasnarf</item>
+        <item>ic_unlock_cpm_fetuswami</item>
+        <item>ic_unlock_cpm_flowerpotamus</item>
+        <item>ic_unlock_cpm_furrycat</item>
+        <item>ic_unlock_cpm_gerbitoad</item>
+        <item>ic_unlock_cpm_gunrilla</item>
+        <item>ic_unlock_cpm_herbil</item>
+        <item>ic_unlock_cpm_lambtron</item>
+        <item>ic_unlock_cpm_monkay</item>
+        <item>ic_unlock_cpm_pengin</item>
+        <item>ic_unlock_cpm_pterdaken</item>
+        <item>ic_unlock_cpm_rabbitech</item>
+        <item>ic_unlock_cpm_roiderat</item>
+        <item>ic_unlock_cpm_roostor</item>
+        <item>ic_unlock_cpm_shoe</item>
+        <item>ic_unlock_cpm_snakat</item>
+        <item>ic_unlock_cpm_stegmata</item>
+        <item>ic_unlock_cpm_terribovine</item>
+        <item>ic_unlock_cpm_vamporko</item>
+        <item>ic_unlock_cpm_velocirapstar</item>
     </string-array>
 </resources>

@@ -15,16 +15,17 @@
         android:layout_height="wrap_content"
         android:text="@string/btnGal"
         android:id="@+id/galeria"
-        android:layout_marginTop="166dp"
+        android:layout_marginTop="170dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="@color/colorSuccess"/>
+        android:backgroundTint="@color/colorRed"/>
     <Button
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorRed"
         android:text="@string/btnLis"
         android:id="@+id/lista"
-        android:layout_marginTop="206dp"
+        android:layout_marginTop="230dp"
         android:layout_alignParentTop="true"
 
         android:layout_centerHorizontal="true" />
