@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Examen_pokedex</string>
+    <string name="app_name">Chinpokedex</string>
     <string name="srch">Nombre de chinpokomon</string>
     <string name="title_activity_menu">menu</string>
     <string name="dummy_button">Dummy Button</string>
@@ -123,19 +123,19 @@
     </string-array>
     <string-array name="chinpokomon_14">
         <item>Gunrilla​</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Acero-Roca</item>
+        <item>Tiene la apariencia de una fusión de un gorilla con un revolver. Sus ataques simulan balazos al momento de lanzar rocas. Vive en las montañas junto con sus otros amigos.</item>
+        <item>0 ft 30 in</item>
+        <item>20.0kg</item>
+        <item>Fuego, Dragón</item>
     </string-array>
     <string-array name="chinpokomon_15">
         <item>Herbil​</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Bicho</item>
+        <item>Este Chimpokomon parece mas un tipo planta. Vive en los bosques espesos y en las praderas. Se alimenta de de bayas y frutas. </item>
+        <item>1 ft 02 in</item>
+        <item>18 kg</item>
+        <item>Fuego, Dragón, Veneno</item>
     </string-array>
     <string-array name="chinpokomon_16">
         <item>Konefin</item>
@@ -178,13 +178,13 @@
         <item>Fantasma, Psiquico</item>
     </string-array>
     ​<string-array name="chinpokomon_21">
-    <item>Pterdaken​</item>
-    <item>Dragón</item>
-    <item>Mítico dragón que tiene mal carácter. Muy dificil de atrapar y entrenar. Habita en cuevas bajo las montañas y en zonas donde el hombre no tiene facil acceso</item>
-    <item>3 ft 05 in</item>
-    <item>60.4kg</item>
-    <item>Dragón, Normal</item>
-</string-array>
+        <item>Pterdaken​</item>
+        <item>Dragón</item>
+        <item>Mítico dragón que tiene mal carácter. Muy dificil de atrapar y entrenar. Habita en cuevas bajo las montañas y en zonas donde el hombre no tiene facil acceso</item>
+        <item>3 ft 05 in</item>
+        <item>60.4kg</item>
+        <item>Dragón, Normal</item>
+    </string-array>
     <string-array name="chinpokomon_22">
         <item>RabbiTech</item>
         <item>Metal-Eléctrico</item>

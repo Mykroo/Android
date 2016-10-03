@@ -33,6 +33,7 @@ public class listaActivity extends AppCompatActivity {
         inTxt = (EditText) findViewById(R.id.srch_in);
         chinpokos = getResources().getStringArray(R.array.pokomons);
         adapta= ArrayAdapter.createFromResource(this.getBaseContext(),R.array.pokomons,android.R.layout.simple_list_item_1);
+        adapta = new MiAdaptador(this.context,0, getResources().getStringArray(R.array.pokomons), getResources().getStringArray(R.array.files));
         lista.setAdapter(adapta);
 
         inTxt.addTextChangedListener(new TextWatcher() {
@@ -60,7 +61,7 @@ public class listaActivity extends AppCompatActivity {
                 String str=(String)parent.getItemAtPosition(position);
                 position=findPos(str);
                 if (position!=404) {
-                    //Toast.makeText(context, "Chinpoko: " + position + str, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(context, "Chinpoko: " + position + str, Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent().setClass(listaActivity.this, descChinpoko.class);
                     intent.putExtra("chinpoko", chinpokos[position]);
 
@@ -68,7 +69,6 @@ public class listaActivity extends AppCompatActivity {
                     startActivity(intent);
                 }else
                     Toast.makeText(context, "Chinpoko no encontrado " + position , Toast.LENGTH_SHORT).show();
-
             }
         });
     }

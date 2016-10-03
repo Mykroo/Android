@@ -115,22 +115,6 @@
         <item>2.3 kg</item>
         <item>Fighting, Siniestro, Psiquico</item>
     </string-array>
-    <string-array name="chinpokomon_14">
-        <item>Gunrilla​</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-    </string-array>
-    <string-array name="chinpokomon_15">
-        <item>Herbil​</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-    </string-array>
     <string-array name="chinpokomon_16">
         <item>Konefin</item>
         <item>Veneno</item>

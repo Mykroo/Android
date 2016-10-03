@@ -6,250 +6,250 @@
 
     <string-array name="chinpokomon_0">
         <item>Accountafish</item>
-        <item>Agua</item>
-        <item>Tiene un apetito voráz. Puede devorar hojas mas grandes que su cuerpo frente a ti. De su antena, este chinpokomon libera un horrible olor.</item>
-        <item>2 ft 11 in</item>
-        <item>22.0 kg</item>
-        <item>Fuego, Volador, Piedra</item>
+        <item>Water</item>
+        <item>Has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fire, Fly, Rock</item>
     </string-array>
     <string-array name="chinpokomon_1">
         <item>Beetlebot</item>
-        <item>Insecto - Volador</item>
-        <item>Beetlebot secreta un fluido aromatico de donde sus piernas están unidas con su cuerpo. Este fluido es usado para comunicarse con otros. Su fluido cambia de aroma si este se altera y/o se enfada.</item>
-        <item>3 in 03 ft </item>
-        <item>23.8 kg </item>
-        <item>Piedra, Eléctrico, Fuego, Volador, Hielo.</item>
+        <item>Insect - Fly</item>
+        <item>Beetlebot secretes an aromatic fluid from where its legs are joined with your body. This fluid is used to communicate with others. Fluid changes its aroma if it is altered and / or angry.</item>
+        <item>70cm</item>
+        <item>12.4 lbs 23.8 kg</item>
+        <item>Fire, Fly, Rock, Electric</item>
     </string-array>
     <string-array name="chinpokomon_2">
         <item>Biebersaurus</item>
-        <item>Arena-Roca</item>
-        <item>Chimpokomon gigante que vive en el desierto y las montañas rocosas. Es de carácter muy dócil pero si lo haces enojar te aplastará en un segundo.</item>
-        <item>6 ft 10 in</item>
-        <item>200.2kg</item>
-        <item>Agua, Hielo</item>
+        <item>Sand-Rock</item>
+        <item>Chimpokomon giant who lives in the desert and the Rocky Mountains. It is very docile but if you do mad crush you in a second. </item>
+        <item>50.48 cm</item>
+        <item>390.4 lbs 200.2 kg</item>
+        <item>Water, Fly</item>
     </string-array>
     <string-array name="chinpokomon_3">
         <item>Brocorri</item>
         <item>Hierba</item>
-        <item>es un chimpokomón de tipo planta que vive generalmente en bosques. Absorbe agua a través de sus raíces, las cuales mantiene enterradas en la tierra cuando este está en reposo.</item>
-        <item>0 ft 19 in</item>
-        <item>5.0kg</item>
-        <item>Fuego, Veneno</item>
+        <item>is a plant chimpokomón generally living in forest type. Absorb water through their roots, which remains buried in the ground when it is at rest.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fuego, Volador, Piedra</item>
     </string-array>
     <string-array name="chinpokomon_4">
         <item>Chu-chu Nezumi</item>
         <item>Arena</item>
-        <item>Es un chinpokomon solitario, difícil de entrenar debido a su carácter irascible. Es uno de los favoritos de los entrenadores expertos. Además suele ser difícil de capturar ya que huyen utilizando excavar.</item>
-        <item>3 ft 11 in</item>
-        <item>83.8 kg</item>
-        <item>Agua, Hierba, Roca</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>130.48 cm</item>
+        <item>127.4 lbs 83.8 kg</item>
+        <item>Fire, Poison</item>
     </string-array>
     <string-array name="chinpokomon_5">
         <item>Cosmonewt</item>
-        <item>Agua-Dragón</item>
-        <item>Su cola le permite dar fuertes bofetadas rápidamente. Este Pokémon reside en zonas de agua dulce. Vive cerca del agua, ya que en tierra sus movimientos son más torpes. </item>
-        <item>2 ft 6 in</item>
-        <item>12.4 kg</item>
-        <item>Hierba, Eléctrico, Dragón</item>
+        <item>Water-Dragon</item>
+        <item>Its tail allows you to quickly strong slaps. This Pokémon lives in freshwater areas. Live near the water, on land and their movements are clumsy.</item>
+        <item>120.48 cm</item>
+        <item>12.6 lbs 12.4 kg</item>
+        <item>grass, Dragon, Electric</item>
     </string-array>
     <string-array name="chinpokomon_6">
         <item>Donkeytron</item>
-        <item>Agua-Hielo-Lucha</item>
-        <item>Le gusta estar en sitios fríos y húmedos, su pelaje blanco le ayuda a camuflarse en la nieve. Le gusta estar en sitios fríos y húmedos, su pelaje azul le ayuda a camuflarse en la nieve. Golpea fuertemente a sus oponentes con sus pesuñas.</item>
-        <item>4 ft 7 in</item>
-        <item>120 kg</item>
-        <item>Hierba, Eléctrico</item>
+        <item>Water-Ice-Fight</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>grass, sand, Electric</item>
     </string-array>
     <string-array name="chinpokomon_7">
         <item>Fatdactyl</item>
-        <item>Psiquico</item>
-        <item>Es capaz de dormir a una ciudad entera con su poder mental. A este Chimpokomon normalmente le gusta comerse los sueños de sus oponentes, se dice que estos forman parte de su dieta, es más, se sabe que cuantos más sueños coma más saludable se verá.</item>
-        <item>1.0 m</item>
-        <item>32.4 kg</item>
-        <item>Fantasma</item>
+        <item>Psiquic</item>
+        <item>It is able to sleep an entire city with its brainpower. In this Chimpokomon usually likes to eat the dreams of his opponents, it is said that these are part of their diet is more, it is known that the more dreams will eat healthier.</item>
+        <item>100 cm</item>
+        <item>26.4 lbs 32.4 kg</item>
+        <item>Phantom</item>
     </string-array>
     <string-array name="chinpokomon_8">
         <item>Feligor</item>
-        <item>Eléctrico-Volador</item>
-        <item>Fatdactyl es un lejendario chinpokomon que tiene la habilidad de controlar la eléctricidad. Vive en las plantas de energia eléctrica. Toma su poder de las tormentas eléctricas.</item>
-        <item>6 ft 03 in</item>
-        <item>116.0 kg</item>
-        <item>Piedra, Arena, Hierba</item>
+        <item>Electric-Fly</item>
+        <item>Fatdactyl is a lejendario Chinpokomon that has the ability to control electricity. He lives in electric power plants. It takes its power of thunderstorms.</item>
+        <item>230.48 cm</item>
+        <item>106.4 lbs 116 kg</item>
+        <item>Sand, grass, Rock</item>
     </string-array>
     <string-array name="chinpokomon_9">
         <item>Ferasnarf</item>
-        <item>Veneno</item>
-        <item>Sus ojos funcionan como radares en la oscuridad ya que el suele salir de noche. Suele vivir en zonas boscosas. No es muy amigable</item>
-        <item>2 ft 2 in</item>
-        <item>9.5 kg</item>
-        <item>Psiquicos, Fuego</item>
+        <item>Poison</item>
+        <item>His eyes act as radars in the dark as the often out at night. Usually live in forested areas. Not very friendly.</item>
+        <item>130 cm</item>
+        <item>6.4 lbs 9.5 kg</item>
+        <item>Fire, Psychic</item>
     </string-array>
     <string-array name="chinpokomon_10">
         <item>Fetuswami​</item>
-        <item>Eléctrico-Psiquico</item>
-        <item>Sus celulas generan su electricidad. Este poder se amplifica por la energía estatica que produce al caminar. Con ese cerebro tan grande controla los objetos a su antojo.</item>
-        <item>1 ft 07 in</item>
-        <item>10 kg</item>
+        <item>Electric-Psychic</item>
+        <item>Its cells generate their electricity. This power is amplified by the static energy produced by walking. With that big brain controls the objects at will.</item>
+        <item>67.48 cm</item>
+        <item>8.4 lbs 10 kg</item>
         <item>Ground</item>
     </string-array>
     <string-array name="chinpokomon_11">
         <item>Flowerpotamus</item>
-        <item>Hierba-Veneno</item>
-        <item>Puede afirmarse que tiene como costumbre exponerse por largo tiempo al sol para que la flor en su lomo comience a desarrollarse. Al haber tan pocos en estado salvaje es difícil obtener datos sobre su comportamiento natural.</item>
-        <item>3 ft 03 in</item>
-        <item>77.2 kg</item>
-        <item>Fuego, Arena, Rocka Veneno</item>
+        <item>Grass-Poison</item>
+        <item>It is arguable that has the usual long exposure to the sun to flower on its back starts to develop. Having so few in the wild is difficult to obtain data on their natural behavior.</item>
+        <item>290.08 cm</item>
+        <item>69.4 lbs 77.2 kg</item>
+        <item>Fire, Rock, Poison, Fly</item>
     </string-array>
     <string-array name="chinpokomon_12">
         <item>Furrycat</item>
-        <item>Hierba-Normal</item>
-        <item>Le gustan los objetos brillantes y sobre todo los objetos redondos. Se le ha visto maullando en las noches para que la gente le lance objetos para callarlo. A pesar de tener una apariencia ruin y vaga puede ser muy fiel a su entrenador, incluso puede ser un buen compañero para los niños. </item>
-        <item>0 ft 8 in</item>
-        <item>4.2 kg</item>
-        <item>Fuego, Luchador, Psiquico</item>
+        <item>Grass-Normal</item>
+        <item>He likes shiny objects and especially round objects. It has been seen meowing at night for people to throw objects to silence him. Despite having a dastardly and vague appearance can be very loyal to his coach, it may even be a good companion for children.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fire, Fight, Psychic</item>
     </string-array>
     <string-array name="chinpokomon_13">
         <item>Gerbitoad</item>
-        <item>agua-hierba</item>
-        <item>Generalmente habita en rios y presas. Es un chinmpokomon muy amigable y fácil de entrenar. Al ser un chinpokmon planta, puede transformar la energía solar en alimento mediante el proceso de fotosíntesis.</item>
-        <item>0 ft 06 in</item>
-        <item>2.3 kg</item>
-        <item>Fighting, Siniestro, Psiquico</item>
+        <item>Water-Grass</item>
+        <item>Usually lives in rivers and dams. It is a very friendly and easy to train chinmpokomon. Being a plant chinpokmon, you can transform solar energy into food through photosynthesis.</item>
+        <item>45 cm</item>
+        <item>6 lbs 4.2 kg</item>
+        <item>Electric, Dark, Psychic</item>
     </string-array>
     <string-array name="chinpokomon_14">
         <item>Gunrilla​</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Steel-Rock</item>
+        <item>It looks like a fusion of a gorilla with a gun. Their attacks simulate gunfire when throwing rocks. He lives in the mountains along with his other friends</item>
+        <item>100 cm</item>
+        <item>25 lbs 20 kg</item>
+        <item>Fire, Dragon</item>
     </string-array>
     <string-array name="chinpokomon_15">
         <item>Herbil​</item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Bug</item>
+        <item>This Chimpokomon looks more like a plant type. He lives in the thick forests and grasslands. It feeds on berries and fruits.</item>
+        <item>30.48 cm</item>
+        <item>20 lbs 18 kg</item>
+        <item>Fire, Fly</item>
     </string-array>
     <string-array name="chinpokomon_16">
         <item>Konefin</item>
-        <item>Veneno</item>
-        <item>Chimpokomon depravado. Se le ve comunmente en burdeles y bares de mala muerte. Le dicen el camisa de fuera pues es borracho hasta espanta mejor ni lo vean. Sus ataques especiales son la Teletransportación al Gato Azul, cortina de humo de cigarro, doble equipo cholo entre otros. </item>
-        <item>1 ft 39 in</item>
-        <item>222.35kg</item>
-        <item>Descencia, Agua(Bendita), Fuego(del infierno), Ejercicio</item>
+        <item>Poison</item>
+        <item>Chimpokomon depraved. It is seen commonly in brothels and seedy bars. They tell you the shirt off because it is better or frightens drunk to see. His special attacks are the Teleport to Blue Cat, cigarette smoke, double cholo team among others.</item>
+        <item>170 cm</item>
+        <item>306.4 lbs 222.35 kg</item>
+        <item>Decency, Water (Blessed), Fire (Hell), Exercise</item>
     </string-array>
     <string-array name="chinpokomon_17">
         <item>Lambtron</item>
-        <item>Eléctrico</item>
-        <item>Es la evolución de Pitochu. Se caracteriza por tener su vacuna antirrabica y ser muy dócil con su entrenador. Vive en las ciudades y en las plantas eléctricas.</item>
-        <item>0 ft 27 in</item>
-        <item>9.0kg</item>
-        <item>Hierba, Arena, Piedra</item>
-    </string-array>
-    <string-array name="chinpokomon_18">
-        <item>Monkay</item>
-        <item>Lucha</item>
-        <item>Chimpokomon adicto a las luchas, le encanta entrar en batallas contra otros tipo pelea y medir quien es mejor peleador. Habita en las praderas y en los gimnasios de boxeo.</item>
-        <item>1 ft 22 in</item>
-        <item>45.0kg</item>
-        <item>Fantasma, Psiquico</item>
-    </string-array>
+        <item>Electric</item>
+        <item>It is the evolution of Pitochu. It is characterized by its rabies vaccine and be very docile with his coach. He lives in cities and power plants.</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Grass, Sand, Rock</item>
+    </string-array><string-array name="chinpokomon_18">
+    <item>Monkay</item>
+    <item>Fight</item>
+    <item>Chimpokomon addict struggles, loves to get into battles against other fight type and measure who is best fighter. Inhabits the grasslands and in boxing gyms.</item>
+    <item>135 cm</item>
+    <item>68 lbs 45 kg</item>
+    <item>Phantom, Psychic</item>
+</string-array>
     <string-array name="chinpokomon_19">
         <item>Pengin</item>
-        <item>Hielo</item>
-        <item>Pequeño pingüino el cual tiene apariencia muy adorable pero en realidad tiene mal carácter. Con sus ataques de hielo puede congelar a las personas cuando lo tratan como bebe.</item>
-        <item></item>
-        <item></item>
-        <item></item>
+        <item>Ice</item>
+        <item>Little Penguin which has very adorable appearance but actually has a bad temper. With his ice attacks you can freeze when people treat it as drink.</item>
+        <item>63 cm</item>
+        <item>16 lbs 13 kg</item>
+        <item>Fire, Dragon</item>
     </string-array>
     <string-array name="chinpokomon_20">
         <item>Poodlesaurus</item>
         <item>Normal</item>
-        <item>Este chinpokomon es un perro antiguo. Le gusta mucho la gente y es una excelente mascota. Vive en las pequeñas ciudades y pueblos tranquilos.</item>
-        <item>1 ft 02 in</item>
-        <item>20.0kg</item>
-        <item>Fantasma, Psiquico</item>
+        <item>This Chinpokomon is an old dog. He loves people and is an excellent pet. He lives in small towns and quiet villages.</item>
+        <item>110 cm</item>
+        <item>23 lbs 20.0 kg</item>
+        <item>Psychic, Dragon</item>
     </string-array>
+
     ​<string-array name="chinpokomon_21">
     <item>Pterdaken​</item>
-    <item>Dragón</item>
-    <item>Mítico dragón que tiene mal carácter. Muy dificil de atrapar y entrenar. Habita en cuevas bajo las montañas y en zonas donde el hombre no tiene facil acceso</item>
-    <item>3 ft 05 in</item>
-    <item>60.4kg</item>
-    <item>Dragón, Normal</item>
+    <item>Dragon</item>
+    <item>Mythical dragon has a bad temper. Very hard to catch and train. It lives in caves under the mountains and in areas where man has easy access</item>
+    <item>160 cm</item>
+    <item>90 lbs 60 kg</item>
+    <item>Dragon, Normal </item>
 </string-array>
     <string-array name="chinpokomon_22">
         <item>RabbiTech</item>
-        <item>Metal-Eléctrico</item>
-        <item>Conejo de Metal que puede controlar la electricidad a su antojo. Es muy fuerte gracias a su cuerpo robótico.</item>
-        <item>1 ft 19 in</item>
-        <item>32 kg</item>
-        <item>Fuego, Hierba, Dragón</item>
+        <item>Steel-Electric</item>
+        <item>Metal Rabbit who can control electricity at will. It is very strong thanks to its robotic body.</item>
+        <item>90 cm</item>
+        <item>29 lbs 32 kg</item>
+        <item>Fire, Grass, Dragon</item>
     </string-array>
     <string-array name="chinpokomon_23">
         <item>Roidrat​</item>
-        <item>normal-Lucha</item>
-        <item>Rata a la cual se le inyectaron esteroides y se volvió muy agresiva a causa de esto. Se encuentra en las alcantarillas y le gusta pelear.</item>
-        <item>2 ft 09 in</item>
-        <item>75kg</item>
-        <item>Psiquico, Volador, Fantasma</item>
+        <item>Normal-Fight</item>
+        <item>Rat which was injected with steroids and became very aggressive because of this. It is found in sewers and likes to fight.</item>
+        <item>175 cm</item>
+        <item>90 lbs 75 kg</item>
+        <item>Fuego, Volador, Piedra</item>
     </string-array>
     <string-array name="chinpokomon_24">
         <item>Roo-stor</item>
-        <item>Volador-Acero</item>
-        <item>Un Ave que cayó en un metal fundido y se fusionó. Vive tanto en el bosque como en las ciudades industrializadas. Es usado para transporte y para pelear</item>
-        <item>2 ft 03 in</item>
-        <item>80.3 kg</item>
-        <item>Fuego, Eléctrico, Psiquico, Fantasma</item>
+        <item>Fly-Steel</item>
+        <item>A bird that fell into a molten metal and merged. He lives both in the forest and industrialized cities. It is used to transport and to fight</item>
+        <item>30.48 cm</item>
+        <item>6.4 lbs 2.9 kg</item>
+        <item>Fire, Electric, Psychic, Phantom</item>
     </string-array>
     <string-array name="chinpokomon_25">
         <item>Shoe​</item>
-        <item>normal</item>
-        <item>Un chinpokomon tipo normal que no tiene mucha utilidad. Se puede encontrar en cualquier zapatería de la ciudad</item>
-        <item>0 ft 3 in</item>
-        <item>0.5 kg</item>
-        <item>Lucha, Psiquico, Volador</item>
+        <item>Normal</item>
+        <item>Chinpokomon a normal guy who is not very useful. It can be found in any shoe store in the city</item>
+        <item>25 cm</item>
+        <item>2 lbs 0.5 kg</item>
+        <item>Fight, Psychic, Fly</item>
     </string-array>
     <string-array name="chinpokomon_26">
         <item>Sna-kat</item>
-        <item>Veneno</item>
-        <item>Es venenoso y habita en pantanos, bosques, etc. Sus músculos son capaces de estrujar bidones de hierro. Tiene cara de gato pues se comió uno y se le atoró</item>
-        <item>1.2m</item>
-        <item>1 ft 04 in</item>
-        <item>Fuego, Psiquico</item>
+        <item>Poison</item>
+        <item>It is poisonous and lives in swamps, forests, etc. Your muscles are able to wring iron drums. It has cat face ate one and he stuck</item>
+        <item>165 cm</item>
+        <item>8 lbs 1.04 kg</item>
+        <item>Fire, Psychic</item>
     </string-array>
     <string-array name="chinpokomon_27">
         <item>Stegmata</item>
-        <item>Agua</item>
-        <item>Es un chinpokomon fuerte que a veces tiene arañazos en su caparazón, que sirve como recordatorio de batallas pasadas. Para mantener el balance mientras nada a altas velocidades, Stegmata mueve sus orejas y su cola.</item>
-        <item>2 ft 08 in</item>
-        <item>32.5 kg</item>
-        <item></item>
+        <item>Water</item>
+        <item>It is a strong Chinpokomon that sometimes has scratches on its shell, which serves as a reminder of past battles. To maintain balance while swimming at high speeds, Stegmata wiggles his ears and tail.</item>
+        <item>120 cm</item>
+        <item>64 lbs 50 kg</item>
+        <item>Grass, Electric</item>
     </string-array>
     <string-array name="chinpokomon_28">
         <item>Terribovine</item>
-        <item>Normal-Lucha</item>
-        <item>Hace físicoculturismo todos los días, se dirige al campo y a las montañas para entrenarse. También suele ofrecer buena disposición a usar su fuerza para realizar trabajos manuales a petición de la gente. Las Hembras dan leche de alta calidad.</item>
-        <item>3 ft 02 in</item>
-        <item>70.5 kg</item>
-        <item>Fantasma, Psiquico</item>
+        <item>Normal-Fight</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>170 cm</item>
+        <item>80 lbs 70.5 kg</item>
+        <item>Psychic, Dragon</item>
     </string-array>
     <string-array name="chinpokomon_29">
         <item>Vamporko</item>
-        <item>Veneno-Volador</item>
-        <item>Este chinpokomon no está de buen humor a menos que duerma en todo momento del dia. Si no hay ningún oponente en la noche, peleará contra árboles gruesos y derribarlos para calmarse a sí mismo.</item>
-        <item>2 ft 07 in</item>
-        <item>19.2 kg</item>
-        <item>Psiquico, Fantasma, Fuego</item>
+        <item>Poison-Fly</item>
+        <item>Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.</item>
+        <item>68.8 cm</item>
+        <item>6.4 lbs 19.2 kg</item>
+        <item>Fire, Electric, Phantom</item>
     </string-array>
     <string-array name="chinpokomon_30">
         <item>Velocirapstar</item>
-        <item>Fuego, Dragón</item>
-        <item>Es un gran lagarto bípedo que posee como característica general una llama en forma de estrella en la punta de su cola. Rapea sin cesar hasta eliminar a sus oponentes y si esto no resulta, empieza con ataques fisicos y de fuego.</item>
-        <item>4 ft 03 in</item>
-        <item>52.2 kg</item>
-        <item>Agua, Dragón</item>
+        <item>Fire, Dragon</item>
+        <item>It is a large bipedal lizard has a flame as a general characteristic star-shaped at the tip of its tail. Raps incessantly to eliminate their opponents and if this fails, begins with physical and fire attacks.</item>
+        <item>150 cm</item>
+        <item>40 lbs 52.2 kg</item>
+        <item>Water, Dragon</item>
     </string-array>
 </resources>
