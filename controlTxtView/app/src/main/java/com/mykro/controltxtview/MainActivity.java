@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Button btn;
-    ctrl_txtView tv;
+    txtView tv;
     Context context;
 
     @Override
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         this.context=getBaseContext();
-        tv = (ctrl_txtView) findViewById(R.id.tv);
+        tv = (txtView) findViewById(R.id.tv);
         btn = (Button) findViewById(R.id.btn);
         btn.setText("holitl");
 

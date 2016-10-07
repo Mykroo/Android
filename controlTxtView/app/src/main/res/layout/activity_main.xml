@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.mykro.controltxtview.MainActivity">
 
-    <com.mykro.controltxtview.ctrl_txtView
+    <com.mykro.controltxtview.txtView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello World!"

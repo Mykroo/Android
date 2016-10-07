@@ -10,7 +10,7 @@ import android.widget.TextView;
 /**
  * Created by mc_mi on 05/10/2016.
  */
-public class ctrl_txtView extends TextView{
+public class txtView extends TextView{
 
     private Paint p1;
     private float densidad;
@@ -19,18 +19,18 @@ public class ctrl_txtView extends TextView{
 
     private String txt;
 
-    public ctrl_txtView(Context context){
+    public txtView(Context context){
         super(context);
         this.inicializa();
     }
 
 
-    public ctrl_txtView(Context context, AttributeSet attrs){
+    public txtView(Context context, AttributeSet attrs){
         super(context, attrs);
         this.inicializa();
     }
 
-    public ctrl_txtView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public txtView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         this.inicializa();
     }
