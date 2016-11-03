@@ -11,15 +11,19 @@ public class MainActivity extends AppCompatActivity {
     Button btn;
     txtView tv;
     Context context;
+    SlideChou sChou;
+    int[] imgs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        this.imgs= new int[] {R.drawable.i1, R.drawable.i2, R.drawable.i4 };
         this.context=getBaseContext();
         tv = (txtView) findViewById(R.id.tv);
         btn = (Button) findViewById(R.id.btn);
+        sChou = (SlideChou) findViewById(R.id.slideShow);
         btn.setText("holitl");
 
         btn.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
                     tv.setBorderType(brdr);
             }
         });
+
+        this.sChou.setImagesArray(imgs);
     }
 
 }
