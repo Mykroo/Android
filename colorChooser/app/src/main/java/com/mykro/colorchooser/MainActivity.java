@@ -1,26 +1,26 @@
 package com.mykro.colorchooser;
 
-import android.graphics.Color;
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.SeekBar;
 
 public class MainActivity extends AppCompatActivity {
-    private SeekBar[] sb;
+    private Context context;
+    private ColorChooser cch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        initVars();
-        //ColorPickerDialog color = new ColorPickerDialog(this,this, "picker",Color.BLACK, Color.WHITE);
-        //color.show();
-
-
+        cch = (ColorChooser) findViewById(R.id.colCh);
+        /*ColorPickerDialog color = new ColorPickerDialog(this, new ColorPickerDialog.OnColorChangedListener() {
+            @Override
+            public void colorChanged(String key, int color) {
+                Toast.makeText(context, "Cambio el color #"+ Integer.toHexString(color).substring(2), Toast.LENGTH_SHORT).show();
+            }
+        }, "picker", Color.BLACK, Color.WHITE);
+        color.show();*/
     }
 
-    private void initVars(){
-        sb = (SeekBar)  {findViewById(R.id.sb_R), findViewById(R.id.sb_G),findViewById(R.id.sb_B)};
-    }
 
 }

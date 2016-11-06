@@ -165,7 +165,7 @@ public class ColorPickerDialog extends Dialog {
                 if (translatedHue != x) {
                     mPaint.setColor(mHueBarColors[x]);
                     mPaint.setStrokeWidth(1);
-                } else // else display a slightly larger black line
+                } else // else display activity_main slightly larger black line
                 {
                     mPaint.setColor(Color.BLACK);
                     mPaint.setStrokeWidth(3);
@@ -196,7 +196,7 @@ public class ColorPickerDialog extends Dialog {
                 canvas.drawCircle(mCurrentX, mCurrentY, 10, mPaint);
             }
 
-            // Draw a 'button' with the currently selected color
+            // Draw activity_main 'button' with the currently selected color
             mPaint.setStyle(Paint.Style.FILL);
             mPaint.setColor(mCurrentColor);
             //canvas.drawRect(10, 316, 138, 356, mPaint);
@@ -212,7 +212,7 @@ public class ColorPickerDialog extends Dialog {
             // "New Color", 74,
             //340, mPaint);
 
-            // Draw a 'button' with the default color
+            // Draw activity_main 'button' with the default color
             mPaint.setStyle(Paint.Style.FILL);
             mPaint.setColor(mDefaultColor);
             //canvas.drawRect(138, 316, 266, 356, mPaint);
