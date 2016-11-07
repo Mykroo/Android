@@ -18,7 +18,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:id="@+id/linearLayout">
+        android:id="@+id/SaveBtns">
 
         <ImageButton
             android:src="@drawable/picker"
@@ -44,13 +44,33 @@
             android:layout_height="60dp"
             android:backgroundTint="@color/Blue"
             android:id="@+id/btnB" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:drawable/ic_menu_save"
+            android:backgroundTint="@color/colorPrimary"
+            android:id="@+id/btnSave" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/btnOpen" />
 
     </LinearLayout>
-    <com.mykro.colorchooser.CanvasArea
+    <!--<com.mykro.colorchooser.CanvasArea-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/linearLayout"-->
+        <!--android:id="@+id/dibZone"/>-->
+
+    <com.mykro.colorchooser.DrawingView
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/linearLayout"
-        android:id="@+id/dibZone"/>
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/drawZone"
+        android:layout_below="@+id/SaveBtns" />
 
 
 </RelativeLayout>

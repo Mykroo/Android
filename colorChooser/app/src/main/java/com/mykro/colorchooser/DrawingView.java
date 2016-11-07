@@ -6,6 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -14,7 +15,7 @@ import android.view.View;
  */
 public class DrawingView extends View {
 
-    public int width;
+    public int width,lineCol;
     public  int height;
     private Bitmap mBitmap;
     private Canvas mCanvas;
@@ -27,6 +28,24 @@ public class DrawingView extends View {
     public DrawingView(Context c) {
         super(c);
         context=c;
+        init();
+
+    }
+
+    public DrawingView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        this.context=context;
+        init();
+    }
+
+    public DrawingView(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+        this.context=context;
+        init();
+    }
+
+    public void init(){
+        lineCol = Color.MAGENTA;
         mPath = new Path();
         mBitmapPaint = new Paint(Paint.DITHER_FLAG);
         circlePaint = new Paint();
@@ -36,8 +55,15 @@ public class DrawingView extends View {
         circlePaint.setStyle(Paint.Style.STROKE);
         circlePaint.setStrokeJoin(Paint.Join.MITER);
         circlePaint.setStrokeWidth(4f);
+        mPaint = new Paint();
+        mPaint.setAntiAlias(true);
+        mPaint.setDither(true);
+        mPaint.setColor(lineCol);
+        mPaint.setStyle(Paint.Style.STROKE);
+        mPaint.setStrokeJoin(Paint.Join.ROUND);
+        mPaint.setStrokeCap(Paint.Cap.ROUND);
+        mPaint.setStrokeWidth(12);
     }
-
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
@@ -49,7 +75,7 @@ public class DrawingView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-
+        mPaint.setColor(lineCol);
         canvas.drawBitmap( mBitmap, 0, 0, mBitmapPaint);
         canvas.drawPath( mPath,  mPaint);
         canvas.drawPath( circlePath,  circlePaint);
@@ -107,5 +133,16 @@ public class DrawingView extends View {
                 break;
         }
         return true;
+    }
+    public void setCol(int col){
+        this.lineCol = col;
+    }
+
+    public Bitmap getmBitmap() {
+        return mBitmap;
+    }
+
+    public void setmBitmap(Bitmap mBitmap) {
+        this.mBitmap = mBitmap;
     }
 }

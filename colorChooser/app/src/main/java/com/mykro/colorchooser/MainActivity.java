@@ -3,7 +3,10 @@ package com.mykro.colorchooser;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.os.Environment;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.view.ContextThemeWrapper;
@@ -13,6 +16,14 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
+import android.widget.Toast;
+
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 
 public class MainActivity extends AppCompatActivity {
     private Context context;
@@ -24,13 +35,13 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton btn;
     private CanvasArea dib;
     private Button btns[];
-
+    private DrawingView drw;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        init();
         //cch = (ColorChooser) findViewById(R.id.colCh);
-        //init();
 
         /*ColorPickerDialog color = new ColorPickerDialog(this, new ColorPickerDialog.OnColorChangedListener() {
             @Override
@@ -41,11 +52,15 @@ public class MainActivity extends AppCompatActivity {
         color.show();*/
     }
     public void init(){
-        dib = (CanvasArea) findViewById(R.id.dibZone);
-        btns= new Button[3];
+        context = getBaseContext();
+//        dib = (CanvasArea) findViewById(R.id.dibZone);
+        drw =  (DrawingView) findViewById(R.id.drawZone);
+        btns= new Button[5];
         btns[0] = (Button) findViewById(R.id.btnR);
         btns[1] = (Button) findViewById(R.id.btnG);
         btns[2] = (Button) findViewById(R.id.btnB);
+        btns[3] = (Button) findViewById(R.id.btnSave);
+        btns[4] = (Button) findViewById(R.id.btnOpen);
         cch2 = new ColorChooser(this.getBaseContext());
         btn = (ImageButton) findViewById(R.id.imageButton);
         initList();
@@ -57,18 +72,54 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 switch (v.getId()){
                     case R.id.btnR:
-                        dib.setCol(Color.RED);
+                        drw.setCol(Color.RED);
                         break;
                     case R.id.btnG:
-                        dib.setCol(Color.GREEN);
+                        drw.setCol(Color.GREEN);
                         break;
                     case R.id.btnB:
-                        dib.setCol(Color.BLUE);
+                        drw.setCol(Color.BLUE);
+                        break;
+                    case R.id.btnOpen:
+                        Toast.makeText(context, "Abriendo",Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.btnSave:
+                        try {
+                            AlertDialog 
+                            File img = savebitmap(drw.getmBitmap());
+                            Toast.makeText(context, "Guardando archivo Calis.png",Toast.LENGTH_SHORT).show();
+                        } catch (IOException e) {
+                            Toast.makeText(context, "No guardo .png",Toast.LENGTH_SHORT).show();
+                            e.printStackTrace();
+                        }
+                        /*String path = Environment.getExternalStorageDirectory().toString();
+                        OutputStream fOut = null;
+                        Integer counter = 0;
+                        File file = new File(path, "FitnessGirl"+counter+".jpg"); // the File to save , append increasing numeric counter to prevent files from getting overwritten.
+                        try {
+                            fOut = new FileOutputStream(file);
+
+                            Bitmap pictureBitmap = drw.getmBitmap(); // obtaining the Bitmap
+                            pictureBitmap.compress(Bitmap.CompressFormat.PNG, 85, fOut); // saving the Bitmap to a file compressed as a JPEG with 85% compression rate
+                            fOut.flush(); // Not really required
+                            fOut.close(); // do not forget to close the stream
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                            Toast.makeText(context, "Error io exception",Toast.LENGTH_SHORT).show();
+                        }
+
+                        try {
+                            MediaStore.Images.Media.insertImage(getContentResolver(),file.getAbsolutePath(),file.getName(),file.getName());
+                            Toast.makeText(context, "Guardando archivo Calis.png",Toast.LENGTH_SHORT).show();
+                        } catch (FileNotFoundException e) {
+                            e.printStackTrace();
+                            Toast.makeText(context, "Error File not found",Toast.LENGTH_SHORT).show();
+                        }*/
                         break;
                 }
             }
         };
-        for (int i=0; i<3; i++){
+        for (int i=0; i<5; i++){
             btns[i].setOnClickListener(l);
         }
         btn.setOnClickListener(new View.OnClickListener() {
@@ -93,6 +144,15 @@ public class MainActivity extends AppCompatActivity {
         mDialog.setContentView(this.cch2);
         //mDialog.show();
     }
-
-
+    public static File savebitmap(Bitmap bmp) throws IOException {
+        ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+        bmp.compress(Bitmap.CompressFormat.JPEG, 60, bytes);
+        File f = new File(Environment.getExternalStorageDirectory()
+                + File.separator + "testimage.jpg");
+        f.createNewFile();
+        FileOutputStream fo = new FileOutputStream(f);
+        fo.write(bytes.toByteArray());
+        fo.close();
+        return f;
+    }
 }
