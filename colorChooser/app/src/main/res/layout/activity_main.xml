@@ -5,12 +5,52 @@
     android:layout_height="match_parent"
     tools:context="com.mykro.colorchooser.MainActivity">
 
-    <com.mykro.colorchooser.ColorChooser
-        android:orientation="vertical"
+    <!--<com.mykro.colorchooser.ColorChooser-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:id="@+id/colCh"/>-->
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/linearLayout">
+
+        <ImageButton
+            android:src="@drawable/picker"
+            android:scaleType="fitXY"
+            android:layout_width="60dp"
+            android:layout_height="61dp"
+            android:id="@+id/imageButton"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/Red"
+            android:id="@+id/btnR" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/Green"
+            android:id="@+id/btnG" />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/Blue"
+            android:id="@+id/btnB" />
+
+    </LinearLayout>
+    <com.mykro.colorchooser.CanvasArea
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/colCh"/>
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/dibZone"/>
+
 
 </RelativeLayout>

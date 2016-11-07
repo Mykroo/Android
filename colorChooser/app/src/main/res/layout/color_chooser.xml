@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true">
+
+    <Button
+            android:layout_weight="100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:id="@+id/colBtn"
+            android:layout_gravity="center_horizontal" />
+
+        <SeekBar
+            android:progressTint="@color/Red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sb_R"
+            android:layout_gravity="center_horizontal"
+            android:max="255"/>
+
+        <SeekBar
+            android:progressTint="@color/Green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sb_G"
+            android:layout_gravity="center_horizontal"
+            android:max="255"/>
+
+        <SeekBar
+            android:progressTint="@color/Blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sb_B"
+            android:layout_gravity="center_horizontal"
+            android:max="255"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#ffffff"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:id="@+id/textCol"
+            android:layout_gravity="center_horizontal"
+            />
+
+</LinearLayout>
