@@ -3,6 +3,7 @@ package com.mykro.colorchooser;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.os.Environment;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private CanvasArea dib;
     private Button btns[];
     private DrawingView drw;
+    private AlertDialog.Builder dial;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,19 +54,21 @@ public class MainActivity extends AppCompatActivity {
         color.show();*/
     }
     public void init(){
-        context = getBaseContext();
+        context = MainActivity.this;
 //        dib = (CanvasArea) findViewById(R.id.dibZone);
         drw =  (DrawingView) findViewById(R.id.drawZone);
-        btns= new Button[5];
-        btns[0] = (Button) findViewById(R.id.btnR);
-        btns[1] = (Button) findViewById(R.id.btnG);
-        btns[2] = (Button) findViewById(R.id.btnB);
-        btns[3] = (Button) findViewById(R.id.btnSave);
-        btns[4] = (Button) findViewById(R.id.btnOpen);
+        btns= new Button[] {
+                    (Button) findViewById(R.id.btnR),
+                    (Button) findViewById(R.id.btnG),
+                    (Button) findViewById(R.id.btnB),
+                    (Button) findViewById(R.id.btnSave),
+                    (Button) findViewById(R.id.btnOpen)};
         cch2 = new ColorChooser(this.getBaseContext());
         btn = (ImageButton) findViewById(R.id.imageButton);
         initList();
         initDialog();
+
+
     }
     public void initList(){
         View.OnClickListener l=new View.OnClickListener() {
@@ -84,14 +88,9 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(context, "Abriendo",Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.btnSave:
-                        try {
-                            AlertDialog 
-                            File img = savebitmap(drw.getmBitmap());
-                            Toast.makeText(context, "Guardando archivo Calis.png",Toast.LENGTH_SHORT).show();
-                        } catch (IOException e) {
-                            Toast.makeText(context, "No guardo .png",Toast.LENGTH_SHORT).show();
-                            e.printStackTrace();
-                        }
+                        dial.show();
+                        //Toast.makeText(context, "Guardando archivo Calis.png",Toast.LENGTH_SHORT).show();
+
                         /*String path = Environment.getExternalStorageDirectory().toString();
                         OutputStream fOut = null;
                         Integer counter = 0;
@@ -119,13 +118,14 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         };
-        for (int i=0; i<5; i++){
+        for (int i=0; i<btns.length; i++){
             btns[i].setOnClickListener(l);
         }
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mDialog.show();
+                drw.setCol(cch2.getColorRGB());
             }
         });
 
@@ -143,6 +143,25 @@ public class MainActivity extends AppCompatActivity {
         mDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         mDialog.setContentView(this.cch2);
         //mDialog.show();
+        dial = new AlertDialog.Builder(MainActivity.this);
+        dial.setMessage("Guardar imagen paint?").setTitle("Guardar");
+        dial.setPositiveButton("Guardar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                try {
+                    File img = savebitmap(drw.getmBitmap());
+                } catch (IOException e) {
+                    Toast.makeText(context, "Error al guardar",Toast.LENGTH_SHORT).show();
+                    e.printStackTrace();
+                }
+            }
+        });
+        dial.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
     }
     public static File savebitmap(Bitmap bmp) throws IOException {
         ByteArrayOutputStream bytes = new ByteArrayOutputStream();
