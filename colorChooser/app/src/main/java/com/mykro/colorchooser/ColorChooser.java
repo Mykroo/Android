@@ -16,7 +16,7 @@ public class ColorChooser extends LinearLayout {
     private SeekBar[] sb;
     private TextView tv;
     private Button col;
-    private int  r,g=88,b=88;
+    private int  r=0,g=0,b=0;
     private SeekBar.OnSeekBarChangeListener l;
     private Context context;
 

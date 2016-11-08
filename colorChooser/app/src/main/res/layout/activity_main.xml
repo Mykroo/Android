@@ -53,6 +53,7 @@
         <Button
             android:layout_width="60dp"
             android:layout_height="60dp"
+            android:background="@android:drawable/ic_menu_delete"
             android:backgroundTint="@color/colorPrimaryDark"
             android:id="@+id/btnOpen" />
 

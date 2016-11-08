@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.os.Environment;
@@ -11,6 +12,7 @@ import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.view.ContextThemeWrapper;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
@@ -28,7 +30,7 @@ import java.io.OutputStream;
 
 public class MainActivity extends AppCompatActivity {
     private Context context;
-    private ColorChooser cch,cch2;
+    private ColorChooser cch2;
     private AlertDialog alert;
     private LayoutInflater mInflater;
     private View mView;
@@ -85,7 +87,27 @@ public class MainActivity extends AppCompatActivity {
                         drw.setCol(Color.BLUE);
                         break;
                     case R.id.btnOpen:
-                        Toast.makeText(context, "Abriendo",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Borrando",Toast.LENGTH_SHORT).show();
+
+                        String f = new File(Environment.getExternalStorageDirectory()+ File.separator).toString()+File.separator+"paintados"+File.separator;
+                        AssetManager mgr = getAssets();
+                        File img[],dir = new File(f);
+
+                        try {
+                            String imgs[] = mgr.list(f);
+                            img=dir.listFiles();
+                            Log.d("Archivo","primiendo "+dir.listFiles());
+                            for(int i=0; i<img.length; i++) {
+                                Log.d("Archivo", img[i].toString());
+                                img[i].delete();
+                            }
+                            for(int i=0; i<imgs.length; i++){
+                                Log.d("Archivo",imgs[i]);
+                            }
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+//                        break;
                         break;
                     case R.id.btnSave:
                         dial.show();
@@ -125,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mDialog.show();
-                drw.setCol(cch2.getColorRGB());
+                //drw.setCol(cch2.getColorRGB());
             }
         });
 
@@ -142,6 +164,13 @@ public class MainActivity extends AppCompatActivity {
         mDialog = new Dialog(mTheme);
         mDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         mDialog.setContentView(this.cch2);
+        mDialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
+            @Override
+            public void onDismiss(DialogInterface dialog) {
+                drw.setCol(cch2.getColorRGB());
+            }
+        });
+        //mDialog.set
         //mDialog.show();
         dial = new AlertDialog.Builder(MainActivity.this);
         dial.setMessage("Guardar imagen paint?").setTitle("Guardar");
@@ -149,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 try {
-                    File img = savebitmap(drw.getmBitmap());
+                    savebitmap(drw.getmBitmap());
                 } catch (IOException e) {
                     Toast.makeText(context, "Error al guardar",Toast.LENGTH_SHORT).show();
                     e.printStackTrace();
@@ -163,15 +192,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    public static File savebitmap(Bitmap bmp) throws IOException {
+    public static void savebitmap(Bitmap bmp) throws IOException {
         ByteArrayOutputStream bytes = new ByteArrayOutputStream();
         bmp.compress(Bitmap.CompressFormat.JPEG, 60, bytes);
+        String str = java.util.Calendar.getInstance().getTime().toString().replace(" ","").replace("GMT-06","").replace(":","");
         File f = new File(Environment.getExternalStorageDirectory()
-                + File.separator + "testimage.jpg");
+                + File.separator +"paintados/"+ str+".jpg");
+        str = Environment.getExternalStorageDirectory()+ File.separator +"paintados"+File.separator+ str+".jpg";
+        Log.d("CCH", str);
         f.createNewFile();
         FileOutputStream fo = new FileOutputStream(f);
         fo.write(bytes.toByteArray());
         fo.close();
-        return f;
+        //return f;
     }
 }

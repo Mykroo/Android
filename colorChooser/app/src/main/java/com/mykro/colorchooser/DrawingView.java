@@ -48,6 +48,7 @@ public class DrawingView extends View {
         lineCol = Color.MAGENTA;
         mPath = new Path();
         mBitmapPaint = new Paint(Paint.DITHER_FLAG);
+
         circlePaint = new Paint();
         circlePath = new Path();
         circlePaint.setAntiAlias(true);
@@ -62,7 +63,7 @@ public class DrawingView extends View {
         mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setStrokeJoin(Paint.Join.ROUND);
         mPaint.setStrokeCap(Paint.Cap.ROUND);
-        mPaint.setStrokeWidth(12);
+        mPaint.setStrokeWidth(24);
     }
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
